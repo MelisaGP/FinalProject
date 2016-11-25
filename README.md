@@ -16,15 +16,13 @@ Primero se procede a configurar los parámetros iniciales de la máquina virtual
 Se configura el sistema las siguientes caraterísticas:
 </p>
 
-<p align="center">
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A1CapturaProcesamiento.PNG)
-</p>
 
 <p align="justify">
 En la enterior imagen se establece que el orden de arranque sea primero disco duro y después óptica, el cual la primera vez que se ejecute reconocerá que el disco se encuentra vacío y procederá a leer la óptica. Las otras veces que se ejecute leerá directamente el disco duro y cargará el CentOS 7 ya instalado.
-</p>
 
 Ahora se configura el procesador de la máquina virtual asignandole dos procesadores, límite de ejecución del 100% y habilitando PAE/NX.
+</p>
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A2Process.PNG)
 
@@ -75,8 +73,9 @@ Se selecciona la opción marcada en la imagén, para configurar automáticamente
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/5ConfiguracionRed2.PNG)
 
 ### Configuración Usuario
-
+<p align="justify">
 Se crea un nuevo usuario con el nombre de python_user, este usuario ejecutará los servicios de python y las pruebas de los mismos. Como se puede ver en la imagen, el usuario no es un administrador.
+</p>
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/6configuracionUsuario.PNG)
 
@@ -159,8 +158,9 @@ Se le da permisos de administrador al usuario python_user, para que pueda leer, 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/21Python_UserComoSUDOER2.PNG)
 
 ## Instalar Entorno y Flask
-
+<p align="justify">
 Se instala un entorno virtual por medio de la librería virtualenv, esta librería permite crear un entorno para la aplicación de Flask, la cual prestará los servicios Rest.
+</p>
 
 ```{sh}
 $ mkdir enviroments
@@ -201,7 +201,9 @@ Formatos de respuesta de las solicitudes.
 | /files  | HTTP 201 CREATED | JSON | HTTP 404 NOT FOUND | HTTP 200 OK |
 | /files/recently_created  | HTTP 404 NOT FOUND | JSON  | HTTP 404 NOT FOUND | HTTP 404 NOT FOUND |
 
+<p align="justify">
 Se procede a crear un directorio donde se alojarán los archivos .py con los métodos de los servicios que cumplan los anteriores contratos.
+</p>
 
 ##Crear scripts para servicios REST
 e.py contendrá todos los servicios rest
@@ -355,8 +357,9 @@ A continuación se verificará con un flujo de acciones el funcionamiento de los
 ![alt text](https://github.com/AndresPineros/microservicesAFP/blob/master/imagenesandres/CapturaI.PNG)
 
 ## Pruebas de Flask con Netstat 
-
+<p align="justify">
 Se comprueba que los servicios REST de la aplicación Web del framework Flask están corriendo por el puerto correspondiente, el 8081. Para esto se usa el comando
+</p>
 
 ``` sh
 $ netstat -etlpua --numeric-port
