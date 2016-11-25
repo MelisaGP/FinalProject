@@ -15,7 +15,10 @@ Primero se procede a configurar los parámetros iniciales de la máquina virtual
 <p align="justify">
 Se configura el sistema las siguientes caraterísticas:
 </p>
+
+<p align="center">
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A1CapturaProcesamiento.PNG)
+</p>
 
 <p align="justify">
 En la enterior imagen se establece que el orden de arranque sea primero disco duro y después óptica, el cual la primera vez que se ejecute reconocerá que el disco se encuentra vacío y procederá a leer la óptica. Las otras veces que se ejecute leerá directamente el disco duro y cargará el CentOS 7 ya instalado.
