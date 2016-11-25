@@ -19,14 +19,13 @@ Se configura el sistema las siguientes caraterísticas:
 
 En la enterior imagen se establece que el orden de arranque sea primero disco duro y después óptica, el cual la primera vez que se ejecute reconocerá que el disco se encuentra vacío y procederá a leer la óptica. Las otras veces que se ejecute leerá directamente el disco duro y cargará el CentOS 7 ya instalado.
 
-
-Se configura el procesador de la máquina virtual asignandole dos procesadores, límite de ejecución del 100% y habilitando PAE/NX.
+Ahora se configura el procesador de la máquina virtual asignandole dos procesadores, límite de ejecución del 100% y habilitando PAE/NX.
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A2Process.PNG)
 
 ### Configuración de Almacenamiento
 
-Se procede a cargar el ISO de CentOS 7 minimal como IDE
+Se procede a cargar el ISO de CentOS 7 minimal como IDE.
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A3Disco.PNG)
 
