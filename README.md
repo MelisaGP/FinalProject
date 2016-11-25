@@ -95,7 +95,7 @@ Se finaliza la configuración del CentOS 7 y se procede a reiniciar la máquina 
 
 Se verifica la configuración de las interfaces de red con el comando:
 
-```{python}
+```{sh}
 # ip a
 ```
 
@@ -159,7 +159,7 @@ Se le da permisos de administrador al usuario python_user, para que pueda leer, 
 
 Se instala un entorno virtual por medio de la librería virtualenv, esta librería permite crear un entorno para la aplicación de Flask, la cual prestará los servicios Rest.
 
-```{python}
+```{sh}
 $ mkdir enviroments
 $ cd enviroments
 $ virtualenv flask_env
@@ -207,11 +207,11 @@ ec.py contendrá todos los métodos de apoyo de python.
 
 e.py importa los métodos de ec.py para responder a las solicitudes REST.
 
-```python
-cd ..
-cd flaskExam
-touch e.py
-touch ec.py
+```sh
+$ cd ..
+$ cd flaskExam
+$ touch e.py
+$ touch ec.py
 ```
 
 
@@ -293,7 +293,6 @@ get_recent_files -> Muestra los últimos 2 archivos creados o modificados.
 remove_all_files -> Elimina un archivo de /home/filesystem_user.
 
 ``` python
-
 from subprocess import Popen, PIPE
 
 def create_file(file, content):
@@ -317,7 +316,6 @@ def remove_one_file(file):
   process = Popen(["rm", "/home/filesystem_user/"+file], stdin=PIPE, stdout=PIPE, stderr=PIPE)
   process.wait()
   return True
-
 ```
 ## Pruebas en POSTMAN
 A continuación se verificará con un flujo de acciones el funcionamiento de los servicios REST.
@@ -357,8 +355,8 @@ A continuación se verificará con un flujo de acciones el funcionamiento de los
 
 Se comprueba que los servicios REST de la aplicación Web del framework Flask están corriendo por el puerto correspondiente, el 8081. Para esto se usa el comando
 
-``` python
-netstat -etlpua --numeric-port
+``` sh
+$ netstat -etlpua --numeric-port
 ```
 A continuación se explican las variaciones del comando:
 
