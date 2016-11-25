@@ -10,3 +10,36 @@
 
 ## Instalación de CentOS 7
 
+### Configuración Disco
+
+### Configuración Teclado
+
+### Configuración Red
+
+### Configuración Usuario
+
+### Configuración Contraseña
+
+### Instalación Completa
+
+## Configuración CentOS 7
+
+### Visualización Ip a
+
+### Instalación Ip Tables
+
+### Abrir Puertos Ip Tables
+
+### Reiniciar Servicios IP Tables
+
+### Verificar Estado Ip Tables
+
+### Descargar Servicio Netstat
+
+## Configuración Python User
+
+### Agregar a Sudoers
+
+## Instalar Entorno y Flask
+
+## Pruebas de Flask con Netstat 
