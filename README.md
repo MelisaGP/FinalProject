@@ -36,62 +36,70 @@
 
 ### Configuración Teclado
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/3ConfiguracionTeclado.PNG)
 
 ### Configuración Red
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/4ConfiguracionRed1.PNG)
+
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/5ConfiguracionRed2.PNG)
 
 ### Configuración Usuario
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/6configuracionUsuario.PNG)
 
 ### Configuración Contraseña
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/7configuracionContrasena.PNG)
 
 ### Instalación Completa
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/8instalacionCompleta.PNG)
 
 ## Configuración CentOS 7
 
 ### Visualización Ip a
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/9PrimerIP_a.PNG)
 
 ### Instalación Ip Tables
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/10InstalacionIpTables.PNG)
 
 ### Abrir Puertos Ip Tables
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/15AbrirPuertosEnIptables.PNG)
 
 ### Reiniciar Servicios IP Tables
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/16ReiniciarServiciosIpTables.PNG)
 
 ### Verificar Estado Ip Tables
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/17VerificarEstadoServiciosIpTables.PNG)
 
 ### Descargar Servicio Netstat
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/18DescargaServicioNetstat.PNG)
+
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/19PrimeraVisualizacionNetstatPuertos.PNG)
 
 ## Configuración Python User
 
-![alt text] (
-
 ### Agregar a Sudoers
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/20Python_UserComoSUDOER1.PNG)
+
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/21Python_UserComoSUDOER2.PNG)
 
 ## Instalar Entorno y Flask
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/25DescargasVirtualEnv.PNG)
+
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/26CreacionEntornoFlask.PNG)
+
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/27InstalarFlaskEnEntornoVirtual.PNG)
 
 ## Pruebas de Flask con Netstat 
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/Netstat1.PNG)
