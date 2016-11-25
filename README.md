@@ -13,19 +13,26 @@
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A1CapturaProcesamiento.PNG)
 
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A2Process.PNG)
+
+
 ### Configuración de Almacenamiento
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A3Disco.PNG)
 
 ### Configuración Red
 
-![alt text] (
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A4NAT.PNG)
+
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A5Bridge.PNG)
 
 ## Instalación de CentOS 7
 
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/1CapturaCentos7.PNG)
+
 ### Configuración Disco
 
-![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A3Disco.PNG)
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/2Configuraci%C3%B3nDisco.PNG)
 
 ### Configuración Teclado
 
