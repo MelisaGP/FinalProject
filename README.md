@@ -13,7 +13,7 @@ Primero se procede a configurar los parámetros iniciales de la máquina virtual
 </p>
 ### Configuración del Sistema
 <p align="justify">
-Se configura el sistema las siguientes caraterísticas:
+Se configura el sistema con las siguientes caraterísticas:
 </p>
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A1CapturaProcesamiento.PNG)
