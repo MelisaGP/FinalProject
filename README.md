@@ -31,29 +31,47 @@ Se procede a cargar el ISO de CentOS 7 minimal como IDE.
 
 ### Configuración Red
 
+Se configura las dos adaptadores de red:
+
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A4NAT.PNG)
+
+El adaptador de red NAT que permite acceder a internet.
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A5Bridge.PNG)
 
+El adaptador de red Bridge que permite acceder a la red local.
+
 ## Instalación de CentOS 7
+
+Empieza la instalación del CentOS 7:
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/1CapturaCentos7.PNG)
 
 ### Configuración Disco
 
+Se procede a seleccionar el disco donde se almacenará el CentOS 7.
+
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/2Configuraci%C3%B3nDisco.PNG)
 
 ### Configuración Teclado
+
+Se configura el idioma del teclado.
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/3ConfiguracionTeclado.PNG)
 
 ### Configuración Red
 
+Se procede a configurar las dos interfaces de red y el nombre del host.
+
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/4ConfiguracionRed1.PNG)
+
+Se selecciona la opción marcada en la imagén, para configurar automáticamente las interfaces (ONBOOT = yes).
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/5ConfiguracionRed2.PNG)
 
 ### Configuración Usuario
+
+
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/6configuracionUsuario.PNG)
 
