@@ -73,21 +73,30 @@ Se selecciona la opción marcada en la imagén, para configurar automáticamente
 
 ### Configuración Usuario
 
-
+Se crea un nuevo usuario con el nombre de python_user, este usuario ejecutará los servicios de python y las pruebas de los mismos. Como se puede ver en la imagen, el usuario no es un administrador.
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/6configuracionUsuario.PNG)
 
 ### Configuración Contraseña
 
+Se ingresa una contraseña para el usuario root del sistema.
+
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/7configuracionContrasena.PNG)
 
 ### Instalación Completa
+
+Se finaliza la configuración del CentOS 7 y se procede a reiniciar la máquina virtual.
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/8instalacionCompleta.PNG)
 
 ## Configuración CentOS 7
 
 ### Visualización Ip a
+
+Se verifica la configuración de las interfaces de red con el comando 
+´´´{python}
+hola
+´´´
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/9PrimerIP_a.PNG)
 
