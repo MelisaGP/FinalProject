@@ -93,30 +93,53 @@ Se finaliza la configuración del CentOS 7 y se procede a reiniciar la máquina 
 
 ### Visualización Ip a
 
-Se verifica la configuración de las interfaces de red con el comando 
-´´´{python}
-hola
-´´´
+Se verifica la configuración de las interfaces de red con el comando:
+
+```{python}
+# ip a
+```
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/9PrimerIP_a.PNG)
 
 ### Instalación Ip Tables
 
+Se realiza la instalación del servicio ip tables.
+
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/10InstalacionIpTables.PNG)
 
+Se verifica la instalación del servicio en el directorio de red.
+
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/14VerificacionInstalacionIpTables.PNG)
+
+Se verifica la existencia de las interfaces de red, en el directorio de red.
+
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/12VerificacionInterfazRed1.PNG)
+
+Se verifica que las interfaces tengan el ONBOOT en yes.
+
+![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/13VerificacionInterfazRed2.PNG)
+
 ### Abrir Puertos Ip Tables
+
+Se abren los puertos en los que se desplegará los servicios de python. En este caso se desplegará en el puerto 8081.
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/15AbrirPuertosEnIptables.PNG)
 
 ### Reiniciar Servicios IP Tables
 
+Se reinicia el servicio de ip tables para que los cambios surjan efecto sobre el sistema.
+
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/16ReiniciarServiciosIpTables.PNG)
 
 ### Verificar Estado Ip Tables
 
+Se verifica que los puertos se hayan abierto correctamente.
+
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/17VerificarEstadoServiciosIpTables.PNG)
 
 ### Descargar Servicio Netstat
+
+Se descarga el servicio de Netstat, que permitirá comprobar que los servicios de Flask estén corriendo por los puertos correspondientes.
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/18DescargaServicioNetstat.PNG)
 
@@ -125,6 +148,8 @@ hola
 ## Configuración Python User
 
 ### Agregar a Sudoers
+
+Se le da permisos de administrador al usuario python_user
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/20Python_UserComoSUDOER1.PNG)
 
