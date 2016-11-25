@@ -8,13 +8,13 @@
 
 -----
 ## Configuración Máquina Virtual
-
+<p align="justify">
 Primero se procede a configurar los parámetros iniciales de la máquina virtual, desde la herramienta Virtual Box. Se tiene como supuesto, haber descargado el ISO de CentOS 7 minimal. 
-
+</p>
 ### Configuración del Sistema
-
+<p align="justify">
 Se configura el sistema las siguientes caraterísticas:
-
+</p>
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A1CapturaProcesamiento.PNG)
 
 <p align="justify">
