@@ -107,6 +107,10 @@ Se verifica la configuración de las interfaces de red con el comando:
 
 Se realiza la instalación del servicio ip tables.
 
+```{sh}
+# yum install iptables
+```
+
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/10InstalacionIpTables.PNG)
 
 Se verifica la instalación del servicio en el directorio de red.
