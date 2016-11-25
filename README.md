@@ -19,7 +19,7 @@ Se configura el sistema con las siguientes caraterísticas:
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/A1CapturaProcesamiento.PNG)
 
 <p align="justify">
-En la enterior imagen se establece que el orden de arranque sea primero disco duro y después óptica, el cual la primera vez que se ejecute la máquina virtual, reconocerá que el disco se encuentra vacío y procederá a leer la óptica. Las otras veces que se ejecute leerá directamente el disco duro y cargará el CentOS 7 ya instalado. <br>
+En la enterior imagen se establece que el orden de arranque sea primero disco duro y después óptica, el cual la primera vez que se ejecute la máquina virtual, reconocerá que el disco se encuentra vacío y procederá a leer la óptica. Las otras veces que se ejecute leerá directamente el disco duro y cargará el CentOS 7 ya instalado. <br><br>
 
 Ahora se configura el procesador de la máquina virtual asignandole dos procesadores, límite de ejecución del 100% y habilitando PAE/NX.
 </p>
