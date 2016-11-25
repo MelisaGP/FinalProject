@@ -355,4 +355,19 @@ A continuación se verificará con un flujo de acciones el funcionamiento de los
 
 ## Pruebas de Flask con Netstat 
 
+Se comprueba que los servicios REST de la aplicación Web del framework Flask están corriendo por el puerto correspondiente, el 8081. Para esto se usa el comando
+
+``` python
+netstat -etlpua --numeric-port
+```
+A continuación se explican las variaciones del comando:
+
+* -e, Muestra la información del Inode del archivo.
+* -t, Muestra las conexiones de red que usan el protocolo TCP.
+* -l, Muestra los puertos que se encuentran en estado de "Listening".
+* -p, Muestra el Id del programa y su nombre.
+* -u, Muestra las conexiones de red que usan el protocolo UDP.
+* -a, Muestra todas las conexiones de red.
+* -numeric-ports, Transforma el puerto a valor númerico 
+
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/Netstat1.PNG)
