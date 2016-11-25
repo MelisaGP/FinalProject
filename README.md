@@ -328,7 +328,9 @@ A continuación se verificará con un flujo de acciones el funcionamiento de los
 ### Agrego 3 archivos con el file POST
 
 ![alt text](https://github.com/AndresPineros/microservicesAFP/blob/master/imagenesandres/CapturaB.PNG)
+
 ![alt text](https://github.com/AndresPineros/microservicesAFP/blob/master/imagenesandres/CapturaC.PNG)
+
 ![alt text](https://github.com/AndresPineros/microservicesAFP/blob/master/imagenesandres/CapturaD.PNG)
 
 ### Verifico el nombre y el contenido desde la consola.
