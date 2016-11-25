@@ -173,6 +173,33 @@ $ . flask_env/bin/activate
 
 ![alt text] (https://github.com/MelisaGP/FinalProject/blob/master/images/27InstalarFlaskEnEntornoVirtual.PNG)
 
+##Creación de los servicios
+
+Para la creación de servicios se describe los siguientes contratos.
+
+URIs.
+
+|   |POST   |GET   |PUT   |DELETE   |
+|---|---|---|---|---|
+| /files  | Crear archivo  | Obtener listado de archivos  | No aplica | Elimina todos los archivos  |
+| /files/recently_created  | No aplica  | Retorna los archivos que se crearon recientemente  | No aplica | No aplica  |
+
+Formatos de envío de las solicitudes.
+
+|   |POST   |GET   |PUT   |DELETE   |
+|---|---|---|---|---|
+| /files  | JSON  | No aplica  | No aplica  | No aplica  |
+| /files/recently_created  | No aplica  | No aplica  | No aplica  | No aplica  |
+
+Formatos de respuesta de las solicitudes.
+
+|   |POST   |GET   |PUT   |DELETE   |
+|---|---|---|---|---|
+| /files  | HTTP 201 CREATED | JSON | HTTP 404 NOT FOUND | HTTP 200 OK |
+| /files/recently_created  | HTTP 404 NOT FOUND | JSON  | HTTP 404 NOT FOUND | HTTP 404 NOT FOUND |
+
+Se procede a crear un directorio donde se alojarán los archivos .py con los métodos de los servicios que cumplan los anteriores contratos.
+
 ##Crear scripts para servicios REST
 e.py contendrá todos los servicios rest
 
@@ -186,6 +213,7 @@ cd flaskExam
 touch e.py
 touch ec.py
 ```
+
 
 ###Archivo de funciones REST:
 files GET -> Obtiene todos los archivos de la carpeta home de filesystem_user. Excluye archivos ocultos y carpetas.
@@ -291,6 +319,37 @@ def remove_one_file(file):
   return True
 
 ```
+## Pruebas en POSTMAN
+A continuación se verificará con un flujo de acciones el funcionamiento de los servicios REST.
+
+### Verifico con el files GET que no hayan archivos.
+![alt text](https://github.com/AndresPineros/microservicesAFP/blob/master/imagenesandres/CapturaA.PNG)
+
+### Agrego 3 archivos con el file POST
+
+![alt text](https://github.com/AndresPineros/microservicesAFP/blob/master/imagenesandres/CapturaB.PNG)
+![alt text](https://github.com/AndresPineros/microservicesAFP/blob/master/imagenesandres/CapturaC.PNG)
+![alt text](https://github.com/AndresPineros/microservicesAFP/blob/master/imagenesandres/CapturaD.PNG)
+
+### Verifico el nombre y el contenido desde la consola.
+
+![alt text](https://github.com/AndresPineros/microservicesAFP/blob/master/imagenesandres/CapturaE.PNG)
+
+### Verifico la existencia con files GET
+
+![alt text](https://github.com/AndresPineros/microservicesAFP/blob/master/imagenesandres/CapturaF.PNG)
+
+### Verifico los ultimos últimos 2 archivos/carpetas modificados con file/recently_created GET
+
+![alt text](https://github.com/AndresPineros/microservicesAFP/blob/master/imagenesandres/CapturaG.PNG)
+
+### Elimino los archivos con files DELETE
+
+![alt text](https://github.com/AndresPineros/microservicesAFP/blob/master/imagenesandres/CapturaH.PNG)
+
+### Verifico que se hayan eliminado con files GET
+
+![alt text](https://github.com/AndresPineros/microservicesAFP/blob/master/imagenesandres/CapturaI.PNG)
 
 ## Pruebas de Flask con Netstat 
 
